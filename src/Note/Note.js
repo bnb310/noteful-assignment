@@ -23,7 +23,7 @@ export default function Note(props) {
           Modified
           {' '}
           <span className='Date'>
-            {format(parseISO(props.modified, "Do MMM YYYY"))}
+            {format(parseISO(props.modified), "Do MMM yyyy")}
           </span>
         </div>
       </div>
